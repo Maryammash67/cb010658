@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Booking</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"rel="stylesheet"/>
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+       rel="stylesheet">
+       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+   <!-- Stylesheet -->
+   <link rel="stylesheet" href="style/book.css">
+
+ 
+</head>
+<body>
+   
+    <!--Booking Section-->
+    <main class="main-content-container">
+      <div class="booking-form">
+          <div id="booking-going-on">
+                  <h3>Booking</h3>
+              <div class="input-group">
+                  <label for="">Name</label>
+                  <input id="flying-from-input" class="inp-style" type="text" name="" placeholder="JOSEPH">
+              </div>
+              <div class="input-group">
+                  <label for="">Email</label>
+                  <input id="flying-to-input" class="inp-style" type="text" name="" placeholder="abcd123@gmail.com">
+              </div>
+              <div class="inputs">
+                  <div class="input-group">
+                      <label for="">Booking date</label>
+                      <input id="departure-input" class="inp-style" type="date" name="" required="required">
+                  </div>
+              </div>
+                  
+        
+        <h3><u>Foreigners</u></h3>
+  <br>
+        <p>
+          <label for="activities">Activities :</label>
+          <select name="activities" id="activities" style="width: 300px; height: 30px;">
+              <option value="" label="select"></option>
+              <option value="one">HIKING</option>
+              <option value="two">SCUBA DIVING</option>
+              <option value="three">SURFING</option>
+              <option value="four">HOT BALLON RIDE</option>
+              <option value="five">DEVIL STAIR TREKKING TOUR</option>
+          </select>
+        </p>
+   <br>
+        <label for="no1"> No. Of Tickets(Adult)</label>
+        <input type="number" id="a1" name="a1" style="width: 120px; height: 22px;" min="0" max="200" value="0" onclick="addCurrent()">
+        
+   <br><br>
+        <label for="no2"> No. Of Tickets(Child)</label>
+         <input type="number" id="a2" name="a2" style="width: 120px; height: 22px;" min="0" max="200" value="0" onclick="addCurrent()">
+  <br><br>
+        <div id="duration">
+          <label> Duration :</label>
+  
+          <input type="radio" name="timef" id="time1" value="Three Hours" > Three Hours
+          
+          <input type="radio" name="timef" id="time2" value="Half Day"> Half Day
+        
+          <input type="radio" name="timef" id="time3" value="Full Day"> Full Day
+          
+          <input type="radio" name="timef" id="time4" value="Two Days"> Two Days
+        </div>
+        <br><br>
+  
+        <label for="extra2"> Extras :</label>
+        <input type="number" id="extra2" name="extra2" style="width: 120px; height: 22px;" min="0" max="200"  value="0" onclick="addCurrent()"> Annual Pass
+        <input type="number" id="xx1" name="xx1" style="width: 120px; height: 22px;" min="0" max="200"  value="0" onclick="addCurrent()"> Food Token
+          <br><br>
+                  
+      
+          
+     
+    </div>
+ 
+  
+          <br>
+          <hr><hr>
+          <h3><u>Locals</u></h3>
+  
+          <p>
+            <label for="activities1">Activities :</label>
+            <select name="activities1" id="activities1" style="width: 300px; height: 30px;">
+                <option value="" label="select"></option>
+                <option value="one">HIKING</option>
+                <option value="two">SCUBA DIVING</option>
+                <option value="three">SURFING</option>
+                <option value="four">HOT BALLON RIDE</option>
+                <option value="five">DEVIL STAIR TREKKING TOUR</option>
+            </select>
+          </p>
+      <br>
+            <label for="no4"> No. Of Tickets(Adult)</label>
+            <input type="number" id="no4" name="no4" style="width: 120px; height: 22px;" min="0" max="200" value="0" onclick="addCurrent()">
+      <br><br>
+            <label for="no5"> No. Of Tickets(Child Below 15)</label>
+            <input type="number" id="no5" name="no5" style="width: 120px; height: 22px;" min="0" max="200" value="0" onclick="addCurrent()">
+      <br><br>
+            <label for="no6"> No. Of Tickets(Child Below 6)</label>
+            <input type="number" id="no6" name="no6" style="width: 120px; height: 22px;" min="0" max="200" value="0" onclick="addCurrent()">
+            <br><br>
+                                     
+             <label> Duration :</label>
+      
+            <input type="radio" name="time" id="3time" value="Three Hours" > Three Hours
+            
+            <input type="radio" name="time" id="htime" value="Half Day"> Half Day
+          
+            <input type="radio" name="time" id="ftime" value="Full Day"> Full Day
+            
+            <input type="radio" name="time" id="2time" value="Two Days"> Two Days
+            <br><br>
+            
+          <label for="extra1"> Extras :</label>
+          <input type="number" id="extra1" name="extra1" style="width: 120px; height: 22px;" min="0" max="200" value="0" onclick="addCurrent()"> Annual Pass
+          
+          <input type="number" id="xx" name="xx" style="width: 120px; height: 22px;" min="0" max="200" value="0" onclick="addCurrent()"> Food Token
+          <br><br>
+        
+            <br>
+            <hr><hr>
+          
+            <button  onclick ="myFunction()" id="submit" name="submit" class="btn">Add Order</button>
+        
+            <button type="submit" onclick ="myFunction1()" id="submit2" name="submit2" class="btn">Place Order</button>
+          
+      <br><br>
+          
+          <p>Current Order(s): <span id="price1"> 0 </span></p>
+          <p>Cost Of Current Order(s): <span id="price3">0</span> LKR</p>
+          <p>Overall Order: <span id="price2">0</span></p>
+          <p>Overall Cost of the Order: <span id="price4">0</span> LKR</p>   
+        </div>
+        </div>
+    
+    
+  </div>
+  </div>
+</div>
+         
+      </div>   
+</main>
+
+</div>   
+</div>
+<!--Thank You-->
+
+
+<script src="scripts/main1.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>

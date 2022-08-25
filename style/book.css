@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background: url("images/ship.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .main-content-container {
+    max-width: 85%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    place-items: center;
+  }
+  .booking-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 90%;
+    margin: 10px;
+    margin-left: 100px;
+  }
+  .booking-form h3 {
+    margin: 10px 0px;
+  }
+  .booking-form .input-group {
+    margin: 10px 0;
+  }
+  .booking-form .calculations {
+    margin: 10px 0;
+  }
+  .booking-form .calculations p {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .booking-form input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #f3f5ff;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  .f-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inp-width {
+    min-width: 300px;
+  }
+  .plus-minus-btn {
+    color: #3352f2;
+    font-size: 30px;
+    padding: 2px;
+    margin: 30px 5px 0px 0px;
+    word-spacing: 5px;
+  }
+  .btn-default {
+    background-color: #fff;
+  }
+  .booking-form .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .btn-style {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: #e33741;
+  }
+  .amount {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* ------------------------------------------------------ */
+  
+  #booking-successful {
+    display: none;
+  }
+  .flying-from-to span,
+  .departure-return span,
+  #first-class-count-final-view,
+  #economy-count-final-view,
+  #total-final-view {
+    font-weight: bold;
+    color: #e33741;
+  }

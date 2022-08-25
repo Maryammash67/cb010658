@@ -1,0 +1,120 @@
+[
+    {
+        "name" : "baby suit",
+        "category" : "Baby dress",
+        "price" : ">$65.00",
+        "imgSrc" : "baby1.jpg"
+    },
+    {
+        "name" : "baby suit",
+        "category" : "Baby dress",
+        "price" : ">$65.00",
+        "imgSrc" : "baby2.jpg"
+    },
+    {
+        "name" : "Gents ware",
+        "category" : "Shorts",
+        "price" : "$220.00",
+        "imgSrc" : "bdress1.jpg"
+    },
+    {
+        "name" : "Arm cut",
+        "category" : "Gents ware",
+        "price" : "185.00",
+        "imgSrc" : "bdress3.jpg"
+    },
+    {
+        "name" : "Arm cut jacket",
+        "category" : "Gents wear",
+        "price" : "50.00",
+        "imgSrc" : "bdress4.jpg"
+    },
+    {
+        "name" : "pria short dress",
+        "category" : "womens wear",
+        "price" : "424.00",
+        "imgSrc" :"dress1.jpg"
+    },
+    {
+        "name" : "short dress",
+        "category" : "womens wear",
+        "price" : "489.00",
+        "imgSrc" :"dress2.jpg"
+    },
+    {
+        "name" : "leah skater dress",
+        "category" : "womens wear",
+        "price" : "368.00",
+        "imgSrc" : "dress3.jpg"
+    },
+    {
+        "name" : "shorts",
+        "category" : "womens wearr",
+        "price" : "200.00",
+        "imgSrc" : "dress4.jpg"
+    },
+    {
+        "name" : "Girls shoes",
+        "category" : "flip-flops",
+        "price" : "80.00",
+        "imgSrc" : "f1.jpg"
+    },
+    {
+        "name" : "Boys shoes",
+        "category" : "flip-flops",
+        "price" : "120.00",
+        "imgSrc" : "f2.jpg"
+    },
+    {
+        "name" : "Beach footware",
+        "category" : "flip-flops",
+        "price" : "100.00",
+        "imgSrc" : "f3.jpg"
+    },
+
+
+
+    {
+        "name" : "emarald green neclace",
+        "category" : "Gem",
+        "price" : "876,0000.",
+        "imgSrc" : "gem1.jpg"
+    },
+    {
+        "name" : "Diamond necklace",
+        "category" : "Diamond",
+        "price" : "980,00",
+        "imgSrc" : "gem2.jpg"
+    },
+    {
+        "name" : "Diana ring",
+        "category" : "Diamond",
+        "price" : "360,000",
+        "imgSrc" : "gem3.jpg"
+    },
+    
+    {
+        "name" : "Sapphire necklace",
+        "category" : "Diamond",
+        "price" : "430,000",
+        "imgSrc" :"gem4.jpg"
+    },
+    {
+        "name" : "Necklace",
+        "category" : "Jewelaries",
+        "price" : "343,000",
+        "imgSrc" : "gem5.jpg"
+    },
+    {
+        "name" : "pendent",
+        "category" : "Jewelaries",
+        "price" : "143,000",
+        "imgSrc" : "jem6.jpg"
+    },
+    {
+        "name" : "Ear-Studs",
+        "category" : "Jewelaries",
+        "price" : "$153,000",
+        "imgSrc" : "jem6.jpg"
+    }
+]

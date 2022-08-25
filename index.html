@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "icon" href = "./fbeb024b626a436e808854ab344aa491 (1).png" type = "image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <title>pruchase</title>
+</head>
+<body>
+
+  <!-- header  -->
+  <header>
+    <div class = "container">
+      <!-- navbar -->
+      <nav class = "navbar">
+        <img src="./fbeb024b626a436e808854ab344aa491 (1).png" >
+        <button type = "button" class = "navbar-toggler">
+          <i class = "fas fa-bars"></i>
+        </button>
+        <div class = "navbar-collapse">
+          <ul><li><a href="home.html" data-after="HOME">HOME</a></li>
+            <li><a href="activity.html"  data-after="ACTIVITY">ACTIVITY</a></li>
+            <li><a href="beach.html"  data-after="BEACHES">BEACHES</a></li>
+            <li><a href="heritage1.html"  data-after="HERIAGE-1">HERIAGE-1</a></li>
+            <li><a href="heritage2.html"  data-after="HERIHAGE-2">HERIHAGE-2</a></li>
+            <li><a href="index.html" data-after="PURCHASE">PURCHASE</a></li>
+            <li><a href="wildlife.html" data-after="WILD-LIFE">WILD-LIFE</a></li>
+          </ul>
+        </div>
+
+        <div class = "cart">
+          <button type = "button" id = "cart-btn">
+            <i class = "fas fa-shopping-cart"></i>
+            <span id = "cart-count-info"></span>
+          </button>
+          
+          <div class = "cart-container">
+            <div class = "cart-list">
+              <!-- single item -->
+              <!-- <div class = "cart-item">
+                <img src = "./dress1.jpg" alt = "product image">
+                <div class = "cart-item-info">
+                  <h3 class = "cart-item-name">dress</h3>
+                  <span class = "cart-item-category">summer dress</span>
+                  <span class = "cart-item-price">$120.00</span>
+                </div>
+                <button type = "button" class = "cart-item-del-btn">
+                  <i class = "fas fa-times"></i>
+                </button>
+              </div> -->
+              <!-- end of single item  -->
+            </div>
+
+            <div class = "cart-total">
+              <h3>Total: $</h3>
+              <span id = "cart-total-value"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- end of navbar -->
+
+      <!-- banner -->
+      <div class = "banner">
+        <div class = "banner-content">
+          <h1>Braanded Purchasing</h1>
+          <p class = "text">We provide you all branded high quality dress with on going trending.Visit us to buy all your dream dress,aceesories,footwears.
+            We provide our customers with 100% satisfaction.Hurry up grab your collection.</p>
+         
+        </div>
+
+        <div class = "banner-img">
+          <img src = "./main.jpg" alt = "furniture banner image">
+        </div>
+      </div>
+      <!-- end of banner  -->
+    </div>
+  </header>
+  <!-- end of header -->
+
+  <!-- products section  -->
+  <section class = "products">
+    <div class = "container">
+      <h2>Our Products</h2>
+      <div class = "product-list">
+        <!-- single item -->
+         <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./baby1.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">baby suit</h3>
+            <span class = "product-category">Baby dress</span>
+            <p class = "product-price">$65.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./baby2.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">baby suit</h3>
+            <span class = "product-category">Baby dress</span>
+            <p class = "product-price">$65.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./bdress1.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">Gents ware</h3>
+            <span class = "product-category">Shorts</span>
+            <p class = "product-price">$220.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./bdress3.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">Arm cut</h3>
+            <span class = "product-category">Gents ware</span>
+            <p class = "product-price">$185.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+         <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./bdress4.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">Arm cut jacket</h3>
+            <span class = "product-category">Gents wear</span>
+            <p class = "product-price">$1000.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./dress1.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">pria short dress</h3>
+            <span class = "product-category">womens wear</span>
+            <p class = "product-price">$424.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./dress2.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">short dress</h3>
+            <span class = "product-category">womens wear</span>
+            <p class = "product-price">$489.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./dress3.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">leah skater dress</h3>
+            <span class = "product-category">womens wear</span>
+            <p class = "product-price">$368.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./dress4.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">shorts</h3>
+            <span class = "product-category">womens wear</span>
+            <p class = "product-price">$200.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <!-- single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./f1.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">Girls shoes</h3>
+            <span class = "product-category">Filp flops</span>
+            <p class = "product-price">$80.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./f2.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">Boys shoes</h3>
+            <span class = "product-category">flip flops</span>
+            <p class = "product-price">$120.00</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./f3.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">Beach footware</h3>
+            <span class = "product-category">flip flops</span>
+            <p class = "product-price">$100</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+        <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./gem1.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">emarald green neclace</h3>
+            <span class = "product-category">Gem</span>
+            <p class = "product-price">$876,0000</p>
+          </div>
+        </div> 
+         <!-- single item -->
+         <div class = "product-item">
+          <div class = "product-img">
+            <img src = "./gem2.jpg" alt = "product image">
+            <button type = "button" class = "add-to-cart-btn">
+              <i class = "fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+          <div class = "product-content">
+            <h3 class = "product-name">Diamond necklace</h3>
+            <span class = "product-category">Diamond</span>
+            <p class = "product-price">$980,000</p>
+          </div>
+        </div> 
+        <!-- end of single item -->
+          <!-- single item -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "./gem3.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+            <div class = "product-content">
+              <h3 class = "product-name">Diana ring</h3>
+              <span class = "product-category">Diamonds</span>
+              <p class = "product-price">$360,000</p>
+            </div>
+          </div> 
+          <!-- end of single item -->
+            <!-- single item -->
+            <div class = "product-item">
+              <div class = "product-img">
+                <img src = "./gem4.jpg" alt = "product image">
+                <button type = "button" class = "add-to-cart-btn">
+                  <i class = "fas fa-shopping-cart"></i>Add To Cart
+                </button>
+              </div>
+              <div class = "product-content">
+                <h3 class = "product-name">Sapphire necklace</h3>
+                <span class = "product-category">Diamond</span>
+                <p class = "product-price">$430,000</p>
+              </div>
+            </div> 
+            <!-- end of single item -->
+              
+          <!-- single item -->
+           <div class = "product-item">
+            <div class = "product-img">
+              <img src = "./gem5.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+            <div class = "product-content">
+              <h3 class = "product-name">Necklace</h3>
+              <span class = "product-category">Jewelaries</span>
+              <p class = "product-price">$343,000</p>
+            </div>
+          </div> 
+          <!-- end of single item -->
+           
+          <!-- single item -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "./jem6.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+            <div class = "product-content">
+              <h3 class = "product-name">pendent</h3>
+              <span class = "product-category">Jewelaries</span>
+              <p class = "product-price">$143,000</p>
+            </div>
+          </div> 
+          <!-- end of single item -->
+             <!-- single item -->
+             <div class = "product-item">
+              <div class = "product-img">
+                <img src = "./gem7.jpg" alt = "product image">
+                <button type = "button" class = "add-to-cart-btn">
+                  <i class = "fas fa-shopping-cart"></i>Add To Cart
+                </button>
+              </div>
+              <div class = "product-content">
+                <h3 class = "product-name">Ear-Studs</h3>
+                <span class = "product-category">Jewelaries</span>
+                <p class = "product-price">$153,000</p>
+              </div>
+            </div> 
+            <!-- end of single item -->
+             
+        <div class="box">
+          <h3>POPULAR SHOOPING COMPLEX<hr></h3>
+          <ul>
+              <li><a href="https://ceylonpages.lk/colombo/place/new-kalyani-jewellers-sri-lanka/">KALYAN JEWELARIES</a></li>
+              <li><a href="https://www.fashionbug.lk/">FASHION BUG</a></li>
+              <li><a href="https://www.sriyanidresspoint.lk/">SYRIYANI</a></li>
+              <li><a href="www.kandycitycentre.lk">KCC</a></li>
+              <li><a href="https://www.uptownlibertyplaza.com/">LIBERTY PLAZA</a></li>
+              <li><a href="https://www.nastars.lk/">NASTARS</a></li>
+              
+          </ul>
+        
+       </div>
+       
+      </div>
+    </div>
+  </section>
+  <!-- end of products section -->
+
+
+  <!-- footer -->
+  <footer>
+    <div class = "footer-banner">
+      <div class = "container">
+        
+        <p class = "text" style="font-size:35px;">We are so glad to have you here!</p>
+        <h1>Giving</h1>
+        <p style="font-size: 12px;">is not just about making a donation.Its about making a difference
+        </p>
+        <h1>We make</h1>
+        <p style="font-size: 12px;">a living from what we get,but we make a life by what we give</p>
+        <h1>Donation Cause</h1>
+         <p># Your Donation will help Sri Lanka reach higher literacy rates</p>
+    <a href="form.html" ><button type = "button" class = "btn">Donation</button></a>
+      </div>
+    </div>
+
+    <section class="footer">
+
+      <div class="box-container">
+   
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="home.html"> <i class="fas fa-angle-right"></i> HOME</a>
+          <a href="activity.html"> <i class="fas fa-angle-right"></i> ACTIVITY</a>
+          <a href="beach.html"> <i class="fas fa-angle-right"></i> BEACH</a>
+          <a href="heritage1.html"> <i class="fas fa-angle-right"></i> HERITAGE-1</a>
+          <a href="heritage2.html"> <i class="fas fa-angle-right"></i> HERITAGE-2</a>
+          <a href="index.html"> <i class="fas fa-angle-right"></i> PURCHASE</a>
+          <a href="wildlife.html"> <i class="fas fa-angle-right"></i> WILD-LIFE</a>
+       </div>
+   
+       
+   
+                 
+     <div class="box">
+      <h3>contact info</h3>
+      <a href="#"> <i class="fas fa-phone"></i> +9476123456</a>
+      <a href="#"> <i class="fas fa-phone"></i> +112345677 </a>
+      <a href="#"> <i class="fas fa-envelope"></i> travelsandtour@gmail.com </a>
+      <a href="#"> <i class="fas fa-map"></i>colombo</a>
+   </div>
+   
+         <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+         </div>
+   
+      </div>
+   
+      <div class="credit"> created by <span>taravels and tour team</span> | all rights reserved! </div>
+   </section>
+   
+  </footer>
+  <!-- end of footer -->
+
+  
+
+
+
+  
+  
+  <script src="scripts/m.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- footer section starts  -->
+
+ 
+ <!-- footer section ends -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts/main.js"></script>
+</html>
